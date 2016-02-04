@@ -25,6 +25,5 @@ Use folder client:
 Configure config.json with:
 "servers": amount of servers the client will use
 "KVS_IPS": array of pairs ("ip" and "port") one for each server the client will use
-####Run
-run command:
-python BftStorageService.py
+####Integrate API
+>from BftStorageService import *
