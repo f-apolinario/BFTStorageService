@@ -25,7 +25,7 @@ def read(key):
 	global handler
 	return handler.read(key)
 
-server = SimpleXMLRPCServer((ip, port),allow_none=True)
+server = SimpleXMLRPCServer((ip, port), allow_none=True)
 print "Listening on port " + str(port) +  "..."
 
 server.register_function(write, "write")
