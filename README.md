@@ -10,7 +10,7 @@ This API provides 4 operations to the client:
 
 - `delete (key, value)`: Deletes a value under the key from a quorum of 3f+1 KVS so that the value is no longer present in the majority of KVSs of the quorum. In order to tolerate f Byzantine Failures.
 
-- `list ()`: **[NOT YET IMPLEMENTED]** Lists the keys present in the majority of the quorum, i.e. the retrievable keys 
+- `list ()`: Lists the keys present in the majority of the quorum, i.e. the retrievable keys 
 
 ## Install:
 
